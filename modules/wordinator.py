@@ -22,7 +22,6 @@ class Wordinator:
         return (self.word * factor).upper()
 
 
-
     def __len__(self):
         return len(self.word)
 
@@ -50,28 +49,42 @@ class Wordinator:
             totalString += longWord[i]
         return totalString.title()
 
-
-    def __divmod__(self, other):
-
-
-
-
-
-
-    def switchCaseWords(self):
-        switch = ""
-        for i in self.word1:
-            if i.isupper():
-                switch += i.lower()
-            else:
-                switch += i.upper()
-            switch += "\n"
-        for i in self.word2:
-            if i.isupper():
-                switch += i.lower()
-            else:
-                switch += i.upper()
-        return switch
+    # def __mod__(self, other):
+    #     midword1 = self.midWord()
+    #     midword2 = other.midWord()
+    #     return midword1, midword2
+    #
+    # def midWord(self):
+    #     word = self.__word
+    #     length = len(word)
+    #     if lentgh % 2 == 0:
+    #         x = lenght / 2
+    #         value = math.floor(length / 4)
+    #         midWord = word[int(x - value):int(x + value)]
+    #         return midWord
+    #     elif lentgh % 2 == 1:
+    #         x = math.floor(length / 2)
+    #         value1 = math.floor(lenght / 4)
+    #         y = math.cell(length / 2)
+    #         value2 = math.floor(lenght / 4)
+    #         midWord = word[int(x - value1):int(y + value2)]
+    #         return midWord
+    #
+    # def __sub__(self, other):
+    #     switchCase1 = self.switchCase()
+    #     switchCase2 = other.switchCase()
+    #     return switchCase1, switchCase2
+    #
+    #
+    # def switchCaseWords(self):
+    #     word = self.__word
+    #     switchWord = ""
+    #     for i in range:
+    #         if i.isupper():
+    #             switchWord += i.lower()
+    #         elif i.islower():
+    #             switchWord += i.upper
+    #         return switchWord
 
 
 
@@ -79,20 +92,17 @@ class Wordinator:
     def backWordSlice(self):
         return self.word[::-1]
 
-
     def backWordsManual(self):
-        switch = ""
-        lenght1 = len(self.word1)
-        lenght2 = len(self.word2)
-        word = self.word1 + self.word2
-        for i in range(len(word) - 1, -1, -1):
-            if i == lenght1 - 1:
-                switch += "\n"
-                switch += self.word1[i]
-            elif lenght1 <= i <= lenght1 + lenght2:
-                switch += self.word2[i - lenght1]
-            else:
-                switch += self.word1[i]
-        return switch
+        word = str(self.__word)
+        backWords = ""
+        for i in word:
+            backWords = i + backWords
+        return backWords
+
+
+
+
+
+
 
 
