@@ -55,7 +55,7 @@ class Wordinator:
         return midword1, midword2
 
     def midWord(self):
-        word = self.__word
+        word = self.word
         length = len(word)
         if length % 2 == 0:
             x = length / 2
@@ -77,7 +77,7 @@ class Wordinator:
 
 
     def switchCaseWords(self):
-        word = self.__word
+        word = self.word
         switchWord = ""
         for i in range:
             if i.isupper():
@@ -93,7 +93,7 @@ class Wordinator:
 
     def backWordsManual(self):
         backWords = ""
-        for i in self.__word:
+        for i in self.word:
             backWords += i
         return backWords
 
