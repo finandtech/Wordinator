@@ -84,7 +84,7 @@ class Wordinator:
                 switchWord += i.lower()
             elif i.islower():
                 switchWord += i.upper
-            return switchWord
+        return switchWord
 
 
 
@@ -94,7 +94,7 @@ class Wordinator:
     def backWordsManual(self):
         word = str(self.__word)
         backWords = ""
-        for i in word:
+        for i in self.word:
             backWords = i + backWords
         return backWords
 
