@@ -76,8 +76,8 @@ def backWordsSlice(wordinator1, wordinator2):
     printBackWords(word1, word2)
 
 def backWordsManual(wordinator1, wordinator2):
-    word1 = wordinator1.backWordManual()
-    word2 = wordinator2.backWordManual()
+    word1 = wordinator1.backWordsManual()
+    word2 = wordinator2.backWordsManual()
     printBackWords(word1, word2)
 
 def printBackWords(word1, word2):
