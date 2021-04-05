@@ -71,8 +71,8 @@ class Wordinator:
             return midWord
 
     def __sub__(self, other):
-        switchCase1 = self.switchCase()
-        switchCase2 = other.switchCase()
+        switchCase1 = self.switchCaseWords()
+        switchCase2 = other.switchCaseWords()
         return switchCase1, switchCase2
 
 
