@@ -65,7 +65,7 @@ class Wordinator:
                 switch += i.lower()
             else:
                 switch += i.upper()
-            s1 += "\n"
+            switch += "\n"
         for i in self.word2:
             if i.isupper():
                 switch += i.lower()
