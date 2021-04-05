@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da94a699-229d-471b-871d-6af0a4350805" name="Default Changelist" comment="Update" />
+    <list default="true" id="da94a699-229d-471b-871d-6af0a4350805" name="Default Changelist" comment="Update">
+      <change beforePath="$PROJECT_DIR$/modules/wordinator.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/wordinator.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617598469445</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update">
+      <created>1617598905525</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1617598905525</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
