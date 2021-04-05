@@ -57,8 +57,8 @@ class Wordinator:
     def midWord(self):
         word = self.__word
         length = len(word)
-        if lentgh % 2 == 0:
-            x = lenght / 2
+        if length % 2 == 0:
+            x = length / 2
             value = math.floor(length / 4)
             midWord = word[int(x - value):int(x + value)]
             return midWord
