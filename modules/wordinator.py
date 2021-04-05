@@ -79,11 +79,11 @@ class Wordinator:
     def switchCaseWords(self):
         word = self.word
         switchWord = ""
-        for i in range:
+        for i in self.word:
             if i.isupper():
                 switchWord += i.lower()
             elif i.islower():
-                switchWord += i.upper
+                switchWord += i.upper()
         return switchWord
 
 
