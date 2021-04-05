@@ -65,7 +65,7 @@ class Wordinator:
         elif length % 2 == 1:
             x = math.floor(length / 2)
             value1 = math.floor(length / 4)
-            y = math.cell(length / 2)
+            y = math.ceil(length / 2)
             value2 = math.floor(length / 4)
             midWord = word[int(x - value1):int(y + value2)]
             return midWord
