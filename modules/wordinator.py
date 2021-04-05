@@ -92,10 +92,9 @@ class Wordinator:
         return self.word[::-1]
 
     def backWordsManual(self):
-        word = str(self.__word)
         backWords = ""
-        for i in self.word:
-            backWords = i + backWords
+        for i in self.__word:
+            backWords += i
         return backWords
 
 
