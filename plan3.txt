@@ -1,0 +1,35 @@
+1) First word function
+
+function prints the first word alphabetically by comparing the letter order
+
+2) Big word function
+
+function adds both words together
+
+3) Words factor function
+
+From user input we get a number which whill be used to multiply each word times that input
+
+4) Mix words
+
+function will grab each letter of a word and mix it in one by one, it will adjust for each word that is larger than the other and put those remaining characters at the end.
+
+5) middle words
+
+This function compares odd vs even number words and takes the middle part of the word and returns the middle part.
+
+6) Switch case 
+
+Function returns the inverse of the case of each word using the slice operator
+
+7) Back Words Slice
+
+Function uses operator to return the reverse of the word
+
+8) Back Words Manual
+
+Function does not use operator to return the reverse of the word, instead it returns the reversed range  
+
+
+
+
